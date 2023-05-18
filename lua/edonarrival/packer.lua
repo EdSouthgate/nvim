@@ -75,5 +75,6 @@ return require('packer').startup(function(use)
   use("laytan/cloak.nvim")
 use {'neoclide/coc.nvim', branch = 'release'}
 use('ThePrimeagen/vim-be-good')
+use('nvim-treesitter/nvim-treesitter-angular')
 end)
 

@@ -28,3 +28,5 @@ vim.keymap.set("i", "<CR>", function()
         end
        return "\r"
 end, opts)
+vim.keymap.set("n", "<leader>wr", ":CocCommand workspace.renameCurrentFile <CR>");
+

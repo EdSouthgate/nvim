@@ -164,6 +164,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\local.ed.southgate\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
+  ["nvim-treesitter-angular"] = {
+    loaded = true,
+    path = "C:\\Users\\local.ed.southgate\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter-angular",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter-angular"
+  },
   ["nvim-treesitter-context"] = {
     loaded = true,
     path = "C:\\Users\\local.ed.southgate\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter-context",
