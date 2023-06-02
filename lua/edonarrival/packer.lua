@@ -44,7 +44,7 @@ return require('packer').startup(function(use)
   use("theprimeagen/refactoring.nvim")
   use("mbbill/undotree")
   use("tpope/vim-fugitive")
-  use("nvim-treesitter/nvim-treesitter-context");
+  use("nvim-treesitter/nvim-treesitter-context")
 
   use {
 	  'VonHeikemen/lsp-zero.nvim',
@@ -75,6 +75,6 @@ return require('packer').startup(function(use)
   use("laytan/cloak.nvim")
 use {'neoclide/coc.nvim', branch = 'release'}
 use('ThePrimeagen/vim-be-good')
-use('nvim-treesitter/nvim-treesitter-angular')
+use({ "elgiano/nvim-treesitter-angular", branch = "topic/jsx-fix" })
 end)
 
